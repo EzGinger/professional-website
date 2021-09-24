@@ -4,28 +4,64 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>CJ's Portfolio</title>
+        <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <link href="./style.css" type="text/css" rel="stylesheet">
     </head>
-    <body>
-        
-        <nav>
-            <div class="logo">
-                <p>Logo</p>
+        <body>
+            <nav>
+                <div class="logo">
+                    <p>Logo</p>
+                </div>
+                <div class="navbar">
+                <ul>
+                    <li><a href="./index.html" class="active">HOME</a></li>
+                    <li><a href="./cybderdefence.html">CYBERDEFENSE</a></li>
+                    <li><a href="./upcomingevents.html">UPCOMING EVENTS</a></li>
+                    <li><a href="./aboutme.html">ABOUT ME</a></li>
+                </ul>
+            </nav>
+            <div class="header">
+            <h1>Curtis Jones' Portfolio</h1>
             </div>
-            <div class="navbar">
-            <ul>
-                <li><a href="./index.html" class="active">HOME</a></li>
-                <li><a href="./cybderdefence.html">CYBERDEFENSE</a></li>
-                <li><a href="./upcomingevents.html">UPCOMING EVENTS</a></li>
-                <li><a href="./aboutme.html">ABOUT ME</a></li>
-            </ul>
-        </nav>
-        <div class="header">
-        <h1>Curtis Jones' Portfolio</h1>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
+            <div class="container-one">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <!--Indicators-->
+                    <div>
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="1"><li>
+                            <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                        </ol>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.gPEocGvsPBKIEZXmn2vDjQHaDn%26pid%3DApi&f=1" alt="National Collegiate Cyber Defense Conference">
+                            <div class="carousel-caption">
+                                <h1>Collegiate Cyber Defense Competition (CCDC)</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.ETfq7x0gY2_n35S2fHPZkwHaDs%26pid%3DApi&f=1" alt="National Cybersecurity League">
+                            <div class="carousel-caption">
+                                <h2>National Cybersecurity League</h2>
+                            </div>
+                        </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.EIJanpXEBqX6Nzm2lN6uzgHaEK%26pid%3DApi&f=1" alt="CompTIA Certifications">
+                            </div>
+                    </div>        
+                    </div>
+                        
+                            <button class="carousel-control-prev" data-bs-target="#myCarousel" data-bs-slide="prev" type="button">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" data-bs-target="#myCarousel" data-bs-slide="next" type="button">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                        
+                        </div>
+            <div class="container-two">
                 <h2>An Into to Myself</h2>
                 <p>My name is Curtis Jones and I am a current full time student at San Diego State University. I am finishing up my senior year at SDSU and plan to graduate with a 
             bachelors degree in Business Information Systems. My passion is Cybersecurity and in following that passion, I suceeded in obtaining my Security+ Certification issued 
@@ -33,28 +69,39 @@
             in my spare time! I enjoy collaborating and meeting new friends over video games and talking to an audience online as it helps me not only make new friends,
             but allows me to be confident speaking to larger audeinces.</p>
                 <div class="learn_more_button">
-                    <a href="./aboutme.html">Learn More About Me Here!</a>
-                </div>
-            </div> 
-            <div class="col-md-3" id="sidebar">
-                <h2>A Sneak Peak</h2>
-                    <ul>
-                        <li>CCDC</li>
-                        <li>NCL</li>
-                        <li>Various CTF Events</li>
-                        <li>Network+ Adventures</li>
-                    </ul>
-                        <div class="upcomingevnts_button">
-                        <a href="./upcomingevents.html">Learn More Here!</a>
-                        </div>
+                    <div class="button">
+                        <a href="./aboutme.html">
+                        <button type="button">Learn More Here</button>
+                        </a>
+                    </div>
+              </div>
+
+            
+            <h2>My Involvement in Cybersecurity</h2>
+              <p>My involvement in the cybersecurity industry began with taking my first cybersecurity class out of curiosity of the field my sophmore year at Grossmont Community College.</p>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-        <h2>My Involvement in Cybersecurity</h2>
-        <p>My involvement in the cybersecurity industry began with taking my first cybersecurity class out of curiosity of the feild my sophmore year at Grossmont Community College.</p>
-        </div>
-        </div>
-          
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>            
-    </body>
+              <div class="container-three">
+                <h2>Social Media</h2>
+                <h2>A Sneak Peak</h2>
+                <ul>
+                    <li>CCDC</li>
+                    <li>NCL</li>
+                    <li>Various CTF Events</li>
+                    <li>Network+ Adventures</li>
+                </ul>
+                    <div class="upcomingevnts_button" id="upcomingevents_button">
+                    <a href="./upcomingevents.html">Learn More Here!</a>
+                    </div>
+            </div>
+           
+                
+                
+
+
+            </div>
+            <!-- JavaScript Bundle with Popper -->
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+            
+        </body>
 </html>

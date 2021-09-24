@@ -47,3 +47,82 @@ nav .navbar ul li a:hover{
 nav .navbar ul li .active{
     color: black;
 }
+.header{
+    text-align: center;
+    padding: 10px;
+    text-decoration: underline;
+    background-color: lightslategrey;
+}
+.container-one{
+    display: contents;
+    border-bottom: 5px black;
+    align-content: center;
+    position: relative;
+   
+}
+.container-two{
+    display: block;
+    background-color: lightgray;
+    border-bottom: 5px black;
+}
+.container-three{
+    display: block;
+    background-color: lightslategrey;
+    border-bottom: 5px black;
+}
+.learn_more_button{
+    text-align: center;
+    padding: 10px, 24px;
+    display: inline-block;
+    box-shadow: 10px;
+}
+.learn_more_button button{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+}
+.learn_more_button button:hover{
+    color: red;
+    transition-duration: .5s;
+    box-shadow: 10px;
+}
+.sidebar_right{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-image: linear-gradient(red, black);
+    color: white ;
+}
+.myCarousel{
+    min-height: 100px;
+    min-width: 80%;
+    list-style-type: none;
+    background-image: linear-gradient(lightgray, black);
+}
+.carousel-indicators{
+    list-style: none;
+    min-width: 25px ;
+    border-radius: 0px;
+}
+.carousel-inner{
+   min-height: 100px;
+   min-width: 80%;
+   background-image: linear-gradient(red, black);
+
+}
+.carousel-inner img{
+    min-height: 100px;
+    min-width: 80%;
+    border-radius: 75px;
+    border: 10px black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.carousel-caption{
+    display:block;
+    font-size: 18;
+    text-align: top;
+}
+.carousel-caption h1{
+   font-size: 14px;
+}
