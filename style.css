@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Code Pro';
+    font-family:"Source Code Pro";
 }
 .nav {
     width: 100%;
@@ -22,6 +22,7 @@ nav .logo p {
 }
 nav .navbar {
     font-size: 30px;
+    font-family:"Source Code Pro" ;
     font-weight: bold;
     letter-spacing: normal;
     border-bottom: 10px black;
@@ -33,13 +34,15 @@ nav .navbar ul {
 nav .navbar li{
     display: inline-block;
     list-style: none;
+    font-family: "Source Code Pro";
 }
 nav .navbar ul li a {
     color: white;
     text-decoration: none;
     font-size: 16px;
     text-transform: uppercase;
-    padding: 0px, 32px ;
+    padding: 0px, 48px ;
+    border-spacing: 25px;
 }
 nav .navbar ul li a:hover{
     color: black;
@@ -100,7 +103,7 @@ nav .navbar ul li .active{
 .intro-header{
     display: block;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     font-family: "Source Code Pro";
     font-size: 20px;
     color: white;
@@ -115,13 +118,32 @@ nav .navbar ul li .active{
 .cyber-involvement h2{
     text-align: center;
     color: white;
+    padding-top: 45px;
 }
 .cyber-involvement p{
     color: white;
+    font-family: "Source Code Pro";
     padding-left: 20px;
     padding-right: 20px;
     border: solid black;
     border-radius: 24px;
+}
+.cyberinvolvement-button{
+    text-align: center;
+    padding: 10px, 24px;
+    display: block;
+    align-items: center;
+    box-shadow: 10px;
+}
+.cyberinvolvement-button button{
+    border-radius: 24px;
+    background-color: black;
+    color: white;
+}
+.cyberinvolvement-button button:hover{
+    color: red;
+    transition-duration: .5s;
+    box-shadow: 10px;
 }
 .container-three{
     display: block;
@@ -148,6 +170,7 @@ nav .navbar ul li .active{
 .myCarousel{
     min-height: 100px;
     min-width: 80%;
+    padding-right: 10px;
 }
 .carousel-indicators{
     list-style: none;
@@ -208,6 +231,12 @@ nav .navbar ul li .active{
     border-radius: 24px;
 }
 #projects-card{
+    margin: 10px;
+    font-weight: bold;
+    border: solid;
+    border-radius: 24px;
+}
+#future-cert-card{
     margin: 10px;
     font-weight: bold;
     border: solid;
